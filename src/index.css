@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2D2424;
+    background-color: #FDFBF7;
+  }
+
+  h1, h2, h3, .font-serif-royal {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+.font-heading {
+  font-family: 'Cinzel', serif;
+}
+
+.font-display {
+  font-family: 'Rozha One', serif;
+}
+
+/* Custom scrollbar for chat & list views */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EFEB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5C2B4;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B49B89;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Lakshmi Srinivasa Matrimony",
+  "description": "A premium Indian matrimonial platform connecting families with verified profiles, horoscope matching, matchmaking dashboard, and membership plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
